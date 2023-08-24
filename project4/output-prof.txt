@@ -1,0 +1,36 @@
+d
+  b
+    a
+      NULL
+      NULL
+    c
+      NULL
+      NULL
+  f
+    e
+      NULL
+      NULL
+    h
+      g
+        NULL
+        NULL
+      z
+        NULL
+        NULL
+e
+  b
+    a
+      NULL
+      NULL
+    c
+      NULL
+      NULL
+  h
+    f
+      NULL
+      g
+        NULL
+        NULL
+    z
+      NULL
+      NULL
