@@ -1,0 +1,8 @@
+7
+a_server b_server 10
+a_server b_server 9
+a_server c_server 5
+c_server b_server 5
+a_server d_server 3
+d_server e_server 3
+e_server b_server 4

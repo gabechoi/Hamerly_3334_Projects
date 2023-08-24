@@ -1,0 +1,10 @@
+9
+d_server w_server 3
+d_server a_server 4
+d_server b_server 4
+d_server c_server 4
+da_server wa_server 3
+da_server aa_server 4
+da_server ba_server 4
+da_server ca_server 4
+b_server da_server 5
