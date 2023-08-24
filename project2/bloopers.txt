@@ -1,0 +1,47 @@
+/*for (m.iterationBegin(); !m.iterationDone(); m.iterationAdvance()) {
+            neighbor = m.iterationCurrent();
+            if (userMaze.isValidLocation(neighbor)) {
+                //checks to see if a word already has a predecessor
+                //also makes sure the starting location does not have a
+                //predecessor
+                if(locMap.find(neighbor) == locMap.end()){
+                    locMap[neighbor] = m;
+                    locationQueue.add(neighbor);
+                }
+
+                /*isOn = false;
+                //checks to see if neighbor has already been on queue
+                for(mapItr = locMap.begin(); mapItr != locMap.end();
+                ++mapItr){
+                    if(mapItr->second == neighbor){
+                        isOn = true;
+                    }
+                }
+                if(!isOn){
+                    neighbor.iterationBegin();
+                    locationQueue.add(neighbor);
+                    cout << neighbor;
+                }
+            }
+        }*/
+        /*if(userMaze.isEndLocation(locationQueue.getFront())){
+            solutionFound = true;
+            endLocation = locationQueue.getFront();
+        }*/
+        //locationQueue.remove();
+
+//endLocation = locationQueue.getFront();
+        //creates path in pathMap
+        /*while(!pathFound){
+            for(mapItr = locMap.begin(); mapItr != locMap.end(); ++mapItr){
+                if(mapItr->first == endLocation){
+                    //pathMap.insert(*mapItr);
+                    sPath.push(mapItr->first);
+                    if(mapItr->first == userMaze.getStartLocation()){
+                        pathFound = true;
+                    }
+                    endLocation = mapItr->second;
+                }
+
+            }
+        }*/
